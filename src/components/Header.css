@@ -1,0 +1,40 @@
+header {
+  background-color: #141414;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 28px;
+  color: #e50914;
+  letter-spacing: 2px;
+}
+
+header button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+header button:hover {
+  background-color: #f40612;
+}
+
+@media (max-width: 600px) {
+  header .logo {
+    font-size: 20px;
+  }
+  header button {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}
