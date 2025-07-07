@@ -25,7 +25,7 @@ function App() {
     return (
       <div>
         <h1 style={{ textAlign: "center", color: "red" }}>Netflix Clone Auth</h1>
-        <div style={{ display: "flex", justifyContent: "center", gap: "2rem" }}>
+        <div style={{ display: "flex",flexDirection:"column" ,justifyContent: "center", gap: "2rem" }}>
           <Register />
           <Login />
         </div>
